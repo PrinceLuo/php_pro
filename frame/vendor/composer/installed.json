@@ -1,0 +1,34 @@
+[
+    {
+        "name": "princeluo/laravelstar",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "dist": {
+            "type": "path",
+            "url": "../laravelstar",
+            "reference": "e8ccd72bf9c8e7801b4ba7b187d6c123d9b4a050"
+        },
+        "require": {
+            "php": ">=7.0.0"
+        },
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "LaravelStar\\": "src"
+            },
+            "files": [
+                "src/Support/helpers.php"
+            ]
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Prince Luo",
+                "email": "luoruichun@qq.com"
+            }
+        ]
+    }
+]

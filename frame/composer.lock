@@ -1,0 +1,50 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "a930b3193cd8b15b414cb215913264eb",
+    "packages": [
+        {
+            "name": "princeluo/laravelstar",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../laravelstar",
+                "reference": "e8ccd72bf9c8e7801b4ba7b187d6c123d9b4a050"
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LaravelStar\\": "src"
+                },
+                "files": [
+                    "src/Support/helpers.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Prince Luo",
+                    "email": "luoruichun@qq.com"
+                }
+            ]
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "princeluo/laravelstar": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

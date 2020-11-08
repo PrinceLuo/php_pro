@@ -1,0 +1,21 @@
+{
+    "name": "princeluo/laravelstar",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Prince Luo",
+            "email": "luoruichun@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelStar\\": "src"
+        },
+        "files": [
+            "src/Support/helpers.php"
+        ]
+    }
+}
